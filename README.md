@@ -70,7 +70,7 @@ Two Power BI dashboards built for the **Allianz Partners Health Operations Data 
 
 - **2024:** 27M in claims cost across about 3K insured members and 54K claims, which works out to **17 claims per member**, an average of **496 per claim**, and about **9K per member**.
 - **Physical illness drives most of the cost**, far ahead of dental, optical and maternity.
-- **The most common diagnoses are low back pain (M54.5) and neck pain (M54.2)**. Both are high-volume, lower-cost conditions where wellness or physiotherapy programs could cut claim frequency.
+- **The costliest diagnoses are low back pain (M54.5) and neck pain (M54.2)**, ahead of serious conditions. Physiotherapy and wellness programs could reduce this cost.
 - **Spouses cost the most per member, and children the least.**
 - **Exceptions:** the 10 most frequent claimants filed **3,090 claims costing 1.33M**, and the highest-value claims are mostly cardiac and cancer cases. Both groups are candidates for case management.
 

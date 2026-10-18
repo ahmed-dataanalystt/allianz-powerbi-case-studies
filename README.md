@@ -50,21 +50,29 @@ Two Power BI dashboards built for the **Allianz Partners Health Operations Data 
 
 ## 2. Claims Analysis Dashboard
 
-**Goal:** analyze claims data to identify the main drivers behind claims and to surface exceptions that need follow-up.
+**Goal:** show what is driving health-insurance claims cost and utilization, and flag unusual claims, frequent claimants and data gaps for review. Amounts are in AED.
 
 ### Pages
 
-**Drivers (2024)**: what drives claims volume and value in 2024.
+**Cost Driver**: KPIs (total cost, insured members, claims, claims per member, average cost per claim, cost per member), plus cost by cause, the top 10 diagnoses (ICD codes) and cost per member by dependency. You can filter by year, benefit, network, claim type and dependency.
 
-![Drivers 2024](Claims%20Screenshots/Claims%20Drivers%202024.png)
+![Cost Driver](Claims%20Screenshots/Claims%20Drivers%202024.png)
 
-**Exceptions**: claims flagged for review.
+**Exceptions**: the 20 highest-value claims and the 10 most frequent claimants, for follow-up and fraud/abuse review.
 
 ![Exceptions](Claims%20Screenshots/Claims%20Exceptions.png)
 
-**Data model**: relationships between the claims tables.
+**Data model**: a Claims fact table linked to Members, Membership, Providers, Calendar and Underwriting Year (UWY) tables.
 
-![Relationships](Claims%20Screenshots/Claims%20Data%20Model.png)
+![Data model](Claims%20Screenshots/Claims%20Data%20Model.png)
+
+### Key findings
+
+- **2024:** 27M in claims cost across about 3K insured members and 54K claims, which works out to **17 claims per member**, an average of **496 per claim**, and about **9K per member**.
+- **Physical illness drives most of the cost**, far ahead of dental, optical and maternity.
+- **The most common diagnoses are low back pain (M54.5) and neck pain (M54.2)**. Both are high-volume, lower-cost conditions where wellness or physiotherapy programs could cut claim frequency.
+- **Spouses cost the most per member, and children the least.**
+- **Exceptions:** the 10 most frequent claimants filed **3,090 claims costing 1.33M**, and the highest-value claims are mostly cardiac and cancer cases. Both groups are candidates for case management.
 
 ---
 

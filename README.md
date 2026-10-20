@@ -1,4 +1,4 @@
-# Health Operations Analytics — Power BI Case Studies
+# Helpline Performance & Claims Dashboards — Power BI
 
 Two Power BI dashboards built for the **Allianz Partners Health Operations Data Reporting & Analytics** assessment:
 
